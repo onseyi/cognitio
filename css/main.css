@@ -28,10 +28,14 @@ body {
 
 .toggle {
 	float: right;
-	background: #ff0000b3;
 	padding: 5px 8px;	
 }
 .toggle i{font-size:25px; }
+.btn-red {
+    color: #fff;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+}
 .banner {
     /* background: url(../images/bg.jpg); */
     background-position: center center;
@@ -44,7 +48,7 @@ body {
 	height: 100vh;
 }
 .banner h1{font-size: 55px;}
-.banner-mx{margin: 15rem 0;}
+.banner-mx{margin: 11rem 0;}
 .ban-animate{
 	-webkit-animation: fadein 4s; /* Safari and Chrome */
     -moz-animation: fadeIn 4s; /* Firefox */
@@ -64,8 +68,8 @@ body {
 
 .welcome{
     background-color: #fff;
-	padding: 6em 0;	
-	height: 100vh;
+	padding: 3em 0;	
+	height: 150vh;
 }
 .welcome small{color: #ff0000;}
 .welcome span{
@@ -88,7 +92,7 @@ body {
 .service{
     background-color: #fcfcfc;
 	padding: 6em 0;	
-	height: 100vh;
+	height: 130vh;
 }
 .service small{color: #ff0000;}
 .service span{
@@ -97,7 +101,7 @@ body {
 	color: #eee;
 	font-family: 'Source Sans Pro';
 	font-size: 73px;
-	bottom: -255%;
+	bottom: -320%;
 }
 .service label{
 	font-family: 'Source Sans Pro';
@@ -118,11 +122,7 @@ body {
 	height: 150vh;
 }
 .work img:hover{
-	-webkit-animation: pulse 2s; /* Safari and Chrome */
-    -moz-animation: pulse 2s; /* Firefox */
-    -ms-animation: pulse 2s; /* Internet Explorer */
-    -o-animation: pulse 2s; /* Opera */
-    animation: pulse 2s;	
+
 }
 .wk-animate1{
 	-webkit-animation: bounceIn 4s; /* Safari and Chrome */
@@ -134,7 +134,7 @@ body {
 .contact{
     background: #333;
 	padding: 10em 0;
-	height: 100vh;
+	height: 109vh;
 }
 .coryr{
 	position:relative;
@@ -185,7 +185,7 @@ body {
 	border-radius: 4px;
 	max-width: 100%;
 	width: 416px;
-	height: 479px;
+	height: 600px;
 }
 .delighter .pix {
 	display: block; 
@@ -251,6 +251,7 @@ body {
 	}
 	.banner h1{font-size: 35px;}
 	.banner-mx{margin: 7rem 0;}	
+	.ml-c { margin-left: 0;}
 	.subm {height: 100%;}	
 	.subm-txtn{text-align: left;}	
 	.welcome{height: 100%;}
