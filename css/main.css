@@ -69,7 +69,7 @@ body {
 .welcome{
     background-color: #fff;
 	padding: 3em 0;	
-	height: 150vh;
+	height: 120vh;
 }
 .welcome small{color: #ff0000;}
 .welcome span{
@@ -101,7 +101,7 @@ body {
 	color: #eee;
 	font-family: 'Source Sans Pro';
 	font-size: 73px;
-	bottom: -320%;
+	bottom: -300%;
 }
 .service label{
 	font-family: 'Source Sans Pro';
