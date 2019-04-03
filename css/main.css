@@ -59,12 +59,12 @@ body {
 
 .subm {
     background-color: #ff0000;
-	padding: 7em 0;
-	height: 65vh;
+	padding: 4em 0 10em 0;
+	height: 95vh;
 }
 .subm-font{font-size: 22px;}
 .subm-txtn{text-align: right;}
-
+.subm i {color:#bf0101;}
 
 .welcome{
     background-color: #fff;
@@ -119,7 +119,8 @@ body {
 .work{
     background: #2f3a58;
 	padding: 7em 0;
-	height: 150vh;
+	/* height: 150vh;*/
+	height: 100vh;
 }
 .work img:hover{
 
